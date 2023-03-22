@@ -1,0 +1,21 @@
+.section-1{
+   .container-banner-main{
+      align-items: center;  
+      display: flex;
+      .content,.thumb{
+         flex: 0 0 50%;
+      }
+      .thumb{
+         text-align: center;
+         img{
+            max-width: 350px;
+         }
+      }
+      @media screen and(max-width: 650px){
+         flex-direction: column;
+         .content{
+            text-align: center;
+         }
+      }
+   }
+}
